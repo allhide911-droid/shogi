@@ -49,7 +49,7 @@ export default function Hero() {
         {/* Main title */}
         <h1 className="font-mincho mb-6">
           <span
-            className="block text-5xl sm:text-7xl md:text-8xl font-bold leading-tight text-kin-gradient"
+            className="block text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold leading-snug"
             style={{
               background: "linear-gradient(135deg, #e2c97e 0%, #c9a84c 50%, #a07d2e 100%)",
               WebkitBackgroundClip: "text",
@@ -57,10 +57,7 @@ export default function Hero() {
               backgroundClip: "text",
             }}
           >
-            王手
-          </span>
-          <span className="block text-3xl sm:text-4xl md:text-5xl font-bold text-white mt-2 tracking-widest">
-            将棋教室
+            将棋は、思考を育てる芸術である。
           </span>
         </h1>
 
@@ -69,10 +66,10 @@ export default function Hero() {
 
         {/* Description */}
         <p className="text-white/75 text-base sm:text-lg md:text-xl leading-relaxed mb-4 font-mincho">
-          子どもから大人まで、初心者から有段者まで。
+          子どもから大人まで。初心者から有段者まで。
         </p>
         <p className="text-white/60 text-sm sm:text-base mb-10 tracking-wide">
-          丁寧な指導で、将棋の醍醐味をお伝えします。
+          アットホームな雰囲気の中で、あなたのペースで学べます。
         </p>
 
         {/* CTA Buttons */}

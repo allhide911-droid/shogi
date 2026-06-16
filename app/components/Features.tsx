@@ -102,6 +102,82 @@ export default function Features() {
             </div>
           ))}
         </div>
+
+        {/* "こんな方を" section */}
+        <div className="mt-24">
+          <div className="text-center mb-12">
+            <p
+              className="text-xs tracking-[0.4em] mb-3 font-medium"
+              style={{ color: "#c9a84c" }}
+            >
+              FOR YOU
+            </p>
+            <h2
+              className="font-mincho text-3xl sm:text-4xl font-bold mb-4"
+              style={{ color: "#1b3a6b" }}
+            >
+              こんな方を、お待ちしています。
+            </h2>
+            <div className="kin-divider w-20 mx-auto mb-6" />
+            <p className="text-sm sm:text-base max-w-xl mx-auto leading-relaxed" style={{ color: "#555" }}>
+              年齢も経験も関係ない。将棋を楽しみたいという気持ちだけあれば大丈夫です。
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
+            {/* Card 1 */}
+            <div
+              className="bg-white rounded-sm p-8"
+              style={{
+                boxShadow: "0 2px 20px rgba(27,58,107,0.08)",
+                border: "1px solid rgba(201,168,76,0.15)",
+              }}
+            >
+              <span
+                className="inline-block text-xs font-bold tracking-widest px-3 py-1 mb-5"
+                style={{ backgroundColor: "rgba(27,58,107,0.07)", color: "#1b3a6b" }}
+              >
+                こどもクラス / 小学生〜中学生
+              </span>
+              <h3
+                className="font-mincho text-xl font-bold mb-4"
+                style={{ color: "#1b3a6b" }}
+              >
+                将棋を始めたいお子さん・親御さんへ
+              </h3>
+              <div className="kin-divider w-12 mb-4" />
+              <p className="text-sm leading-relaxed" style={{ color: "#666" }}>
+                「集中力をつけさせたい」「論理的な思考を育てたい」。将棋は子どもの成長に絶大な効果があります。高橋講師による丁寧な指導で、楽しみながら力が伸びます。保護者の方への進捗報告も毎月実施しています。
+              </p>
+            </div>
+
+            {/* Card 2 */}
+            <div
+              className="bg-white rounded-sm p-8"
+              style={{
+                boxShadow: "0 2px 20px rgba(27,58,107,0.08)",
+                border: "1px solid rgba(201,168,76,0.15)",
+              }}
+            >
+              <span
+                className="inline-block text-xs font-bold tracking-widest px-3 py-1 mb-5"
+                style={{ backgroundColor: "rgba(201,168,76,0.1)", color: "#a07d2e" }}
+              >
+                一般クラス / 高校生〜シニア
+              </span>
+              <h3
+                className="font-mincho text-xl font-bold mb-4"
+                style={{ color: "#1b3a6b" }}
+              >
+                趣味を持ちたい・仲間を作りたい大人の方へ
+              </h3>
+              <div className="kin-divider w-12 mb-4" />
+              <p className="text-sm leading-relaxed" style={{ color: "#666" }}>
+                仕事帰りの集中できる時間、週末の充実した趣味として。同じ将棋好きの仲間と過ごす時間は、生涯の財産になります。初心者も有段者も、夕暮れ時の教室で盤を囲みましょう。
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );

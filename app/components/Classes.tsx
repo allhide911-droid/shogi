@@ -69,11 +69,14 @@ export default function Classes() {
             CLASSES & FEES
           </p>
           <h2
-            className="font-mincho text-3xl sm:text-4xl font-bold mb-4"
+            className="font-mincho text-3xl sm:text-4xl font-bold mb-2"
             style={{ color: "#1b3a6b" }}
           >
-            クラス・料金
+            「将棋、難しそう」が、変わります。
           </h2>
+          <p className="font-mincho text-base mb-4" style={{ color: "#888" }}>
+            クラス・料金
+          </p>
           <div className="kin-divider w-20 mx-auto mb-6" />
           <p className="text-sm sm:text-base max-w-xl mx-auto leading-relaxed" style={{ color: "#555" }}>
             全クラス、初回は<strong style={{ color: "#1b3a6b" }}>無料体験レッスン</strong>を実施しております。
