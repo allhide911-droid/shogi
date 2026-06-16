@@ -78,7 +78,7 @@ export default function Classes() {
             style={{ aspectRatio: "4/3" }}
           >
             <Image
-              src="/images/教室風景.png"
+              src="/images/Gemini_Generated_Image_cp2xj7cp2xj7cp2x.png"
               alt="レッスン風景"
               fill
               className="object-cover"
