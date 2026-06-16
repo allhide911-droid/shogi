@@ -54,12 +54,14 @@ export default function Access() {
             }}
           >
             <iframe
-              src="https://www.openstreetmap.org/export/embed.html?bbox=135.49%2C34.686%2C135.50%2C34.694&layer=mapnik&marker=34.690%2C135.495"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.5!2d135.4950!3d34.6900!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e7163f2a59a9%3A0x1234567890abcdef!2z5ぺpW1t5Lit5aSu5Yy65YyX5rCX77yS5LiB55uu77yR5LiB55uu!5e0!3m2!1sja!2sjp!4v1234567890"
               width="100%"
-              height="100%"
-              style={{ border: 0 }}
-              title="王手将棋教室 地図"
+              height="320"
+              style={{ border: 0, filter: "sepia(20%) contrast(0.9)" }}
+              allowFullScreen
               loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              title="王手将棋教室 地図"
             />
           </div>
 
