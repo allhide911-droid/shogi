@@ -1,7 +1,7 @@
 const info = [
   {
     label: "住所",
-    value: "〒541-0041\n大阪市中央区北浜1丁目8-16\n王手ビル3F",
+    value: "〒541-0041\n大阪市中央区北浜1丁目",
   },
   {
     label: "最寄り駅",
@@ -18,7 +18,7 @@ const info = [
   },
   {
     label: "メール",
-    value: "info@ote-shogi.example.com",
+    value: "info@ote-shogi.jp",
   },
 ];
 
@@ -114,7 +114,7 @@ export default function Access() {
                 電話でお問い合わせ
               </a>
               <a
-                href={`mailto:info@ote-shogi.example.com?subject=体験レッスンのご予約`}
+                href={`mailto:info@ote-shogi.jp?subject=体験レッスンのご予約`}
                 className="flex items-center justify-center gap-2 w-full py-3.5 text-sm font-bold font-mincho tracking-wide rounded-sm transition-all duration-200 border-2"
                 style={{ borderColor: "#c9a84c", color: "#c9a84c" }}
               >

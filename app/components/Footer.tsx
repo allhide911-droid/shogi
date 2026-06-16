@@ -39,7 +39,7 @@ export default function Footer() {
               創立15年の歴史と実績。
             </p>
             <p className="text-xs" style={{ color: "rgba(201,168,76,0.7)" }}>
-              〒541-0041 大阪市中央区北浜1丁目8-16
+              〒541-0041 大阪市中央区北浜1丁目
             </p>
           </div>
 
@@ -91,10 +91,10 @@ export default function Footer() {
                   <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
                 </svg>
                 <a
-                  href="mailto:info@ote-shogi.example.com"
+                  href="mailto:info@ote-shogi.jp"
                   className="hover:text-white transition-colors break-all"
                 >
-                  info@ote-shogi.example.com
+                  info@ote-shogi.jp
                 </a>
               </div>
               <div className="flex items-start gap-3">

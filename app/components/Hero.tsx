@@ -102,9 +102,9 @@ export default function Hero() {
           style={{ borderColor: "rgba(255,255,255,0.1)" }}
         >
           {[
-            { num: "創立", val: "15年" },
-            { num: "生徒数", val: "120名+" },
-            { num: "有段者", val: "80名+" },
+            { num: "15", val: "年の指導実績" },
+            { num: "120", val: "名の在籍生徒" },
+            { num: "80", val: "名の有段者輩出" },
           ].map((s) => (
             <div key={s.num} className="text-center">
               <div className="text-xs text-white/40 tracking-widest mb-1">{s.num}</div>
