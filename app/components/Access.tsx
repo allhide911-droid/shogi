@@ -24,7 +24,7 @@ const info = [
 
 export default function Access() {
   return (
-    <section id="access" className="py-20 sm:py-28" style={{ backgroundColor: "#f8f6f0" }}>
+    <section id="access" className="py-20 sm:py-28" style={{ backgroundColor: "#FAF7F2" }}>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         {/* Heading */}
         <div className="text-center mb-16">

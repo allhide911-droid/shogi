@@ -9,7 +9,7 @@ const navLinks = [
 
 export default function Footer() {
   return (
-    <footer className="ai-pattern">
+    <footer style={{ backgroundColor: "#070d1a" }}>
       {/* Top divider */}
       <div className="kin-divider" />
 

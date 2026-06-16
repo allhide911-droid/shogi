@@ -22,11 +22,11 @@ export default function Header() {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        scrolled
-          ? "bg-ai-dark shadow-lg shadow-black/30"
-          : "bg-ai-dark/90 backdrop-blur-sm"
-      }`}
+      className="fixed top-0 left-0 right-0 z-50 transition-all duration-300 backdrop-blur-[8px]"
+      style={{
+        backgroundColor: "rgba(8,14,35,0.90)",
+        boxShadow: scrolled ? "0 2px 20px rgba(0,0,0,0.5)" : "none",
+      }}
     >
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="flex items-center justify-between h-16 sm:h-20">

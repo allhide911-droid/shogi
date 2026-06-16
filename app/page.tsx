@@ -1,5 +1,6 @@
 import Header from "./components/Header";
 import Hero from "./components/Hero";
+import AboutClassroom from "./components/AboutClassroom";
 import Features from "./components/Features";
 import Classes from "./components/Classes";
 import Instructor from "./components/Instructor";
@@ -12,6 +13,7 @@ export default function Page() {
       <Header />
       <main>
         <Hero />
+        <AboutClassroom />
         <Features />
         <Classes />
         <Instructor />
